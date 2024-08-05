@@ -1,46 +1,35 @@
-Heaps
+# Heaps
 
-Heaps are a type of binary tree-based data structure constrained by a heap property
+## Introduction
 
-They are nearly complete  binary trees.
+Heaps are a type of binary tree-based data structure constrained by a heap property. They are nearly complete binary trees. There are two types of heaps: Min Heap and Max Heap.
 
-There are two types of heap:
+## Types of Heaps
 
+- **Min Heap**: A type of heap where the parent node has a value less than or equal to its child nodes.
+- **Max Heap**: A type of heap where the parent node has a value greater than or equal to its child nodes.
 
-         Min heap
-         Max heap
+## Advantages of Using Heaps
 
+- **Efficient Insertion and Deletion**: Heaps allow efficient addition and removal of elements.
+- **Guaranteed Access to Max and Min Element**: You can easily access the maximum or minimum element in a heap.
+- **Space Efficiency**: Heaps are more space-efficient than other data structures like balanced binary search trees.
 
-  
-Advantages of using heaps
+## Disadvantages of Using Heaps
 
-          Efficient insertion and deletion
-  
-          Guaranteed access to max and min element
-  
-           Space efficiency
+- **Lack of Flexibility**: Heaps offer limited flexibility compared to other data structures.
+- **Not Suitable for Sorting**: While heaps can efficiently manage priorities, they are not ideal for sorting elements.
+- **Inefficient for Searching**: Searching for an element in a heap is not as efficient as in other data structures.
+- **Uncertain for Certain Operations**: Some operations, like finding the median, are not straightforward or guaranteed to be efficient in heaps.
 
-Disadvantages of using heaps
+## Applications of a Heap
 
-       Lack of flexibility 
- 
-        Not suitable for sorting
- 
-        Inefficient for searching
- 
-        Not certain for certain operations like finding the median
+- **Priority Queues**: Heaps are commonly used to implement priority queues.
+- **Selection Algorithms**: For example, finding the smallest element in a list.
+- **Dynamic Memory Allocation**: Heaps are used in allocating and deallocating memory dynamically.
+- **Algorithms**: Used in various algorithms such as Dijkstra's algorithm to find the node of the smallest distance.
 
-
-Applications of a heap
-
-        Used to implement priority queues
- 
-        Selection Algorithm e.g finding the smallest element in a list
- 
-        Used in allocating and deallocating memory dynamically
- 
-        Used in various algorithms such as Dijkstra to find the node of the smallest 
-
+Heaps are a powerful data structure with specific use cases, particularly where efficient management of priorities is required.
 
 
 
